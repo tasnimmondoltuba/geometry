@@ -7,14 +7,14 @@ const ractangleValue = ractangleWidthInput.value;
 const width = parseFloat(ractangleValue);
 console.log(width);
 
-// height calculate
-const ractangleHeightInput = document.getElementById('ractangle-height');
-const ractangleHeightValue = ractangleHeightInput.value;
-const height = parseFloat(ractangleHeightValue);
-console.log(height);
+// length calculate
+const ractangleLengthtInput = document.getElementById('ractangle-length');
+const ractangleLengthtValue = ractangleLengthtInput.value;
+const length = parseFloat(ractangleLengthtValue);
+console.log(length);
 
 // area calculate
-const area = width * height;
+const area = width * length;
 console.log(area);
 
 // span area calculate
